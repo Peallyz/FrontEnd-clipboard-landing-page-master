@@ -199,10 +199,15 @@ footer .link__5 {
   grid-row: 1;
 }
 
+a {
+  color: hsl(210deg, 10%, 33%);
+}
+
 .attribution {
+  color: hsl(210deg, 10%, 33%);
   font-size: 11px;
   text-align: center;
-  grid-column: span 5;
+  grid-column: span 6;
   align-self: flex-end;
 }
 

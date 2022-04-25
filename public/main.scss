@@ -216,11 +216,14 @@ footer {
     }
   }
 }
-
+a {
+  color: $cl__primary;
+}
 .attribution {
+  color: $cl__primary;
   font-size: 11px;
   text-align: center;
-  grid-column: span 5;
+  grid-column: span 6;
   align-self: flex-end;
 }
 .attribution a {
