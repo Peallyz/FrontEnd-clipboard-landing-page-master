@@ -17,6 +17,7 @@ body {
   color: hsl(201deg, 11%, 66%);
   font-size: 0.9rem;
   font-weight: 400;
+  min-height: 100vh;
 }
 
 h1 {
