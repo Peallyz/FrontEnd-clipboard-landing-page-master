@@ -79,6 +79,11 @@ a {
   padding: 2rem;
 }
 
+.container__btn--top {
+  margin: auto;
+  min-width: 460px;
+}
+
 .container__1 {
   width: 100%;
 }
@@ -106,6 +111,9 @@ a {
   justify-content: center;
 }
 
+.container__2 {
+  margin: auto;
+}
 .container__2 img {
   width: 55vw;
   transform: translateX(-10%);
@@ -113,6 +121,7 @@ a {
 }
 
 .container__3 {
+  margin: auto;
   width: 80%;
 }
 .container__3 .allbox {
@@ -128,6 +137,7 @@ a {
 }
 
 .container__4 {
+  margin: auto;
   margin-top: 50px;
   margin-bottom: 100px;
 }
@@ -139,6 +149,11 @@ a {
 .container__4 .society img {
   width: 15%;
   height: 100%;
+}
+
+.container__btn--bottom {
+  margin: auto;
+  min-width: 460px;
 }
 
 footer {
@@ -290,6 +305,11 @@ a {
   .container__4 .society img {
     margin-bottom: 60px;
     transform: scale(150%);
+  }
+
+  .container__btn--top,
+.container__btn--bottom {
+    min-width: none;
   }
 
   footer {
